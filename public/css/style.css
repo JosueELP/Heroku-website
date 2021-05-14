@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+  --blue: #4CB8C4;
+  --green: #3CD3AD;
+  --pink: #EC008C;
+  --orange: #FC6767;
+
+  font-size: 14px;
+}
+
+.font-pacifico{
+  font-family: 'Pacifico', cursive;
+}
+
+.intro-text{
+  font-size: 4rem;
+  background: linear-gradient(45deg, var(--blue), var(--green));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.name-text{
+  font-size: 5rem;
+  background: linear-gradient(45deg, var(--pink), var(--orange));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-home{
+  background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+}
